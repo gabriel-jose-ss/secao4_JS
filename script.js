@@ -48,3 +48,12 @@ if (negative < 0)
 else if (negative >= 1) 
 {console.log('positive')}
 else {console.log('zero')};
+
+const angulo1 = 60;
+const angulo2 = 60;
+const angulo3 = 60;
+let angulosColocados = [60, -3, 60];
+let resultado;
+if (angulo1 && angulo2 && angulo3 == angulosColocados){console.log(resultado = true)}
+else if (angulo1 && angulo2 && angulo3 !== angulosColocados){console.log(resultado = false)}
+else if (angulo1 || angulo2 || angulo3 < 0) {console.log(resultado = 'Valor invalido')};
