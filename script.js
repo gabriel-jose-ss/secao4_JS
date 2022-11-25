@@ -57,3 +57,4 @@ let resultado;
 if (angulo1 && angulo2 && angulo3 == angulosColocados){console.log(resultado = true)}
 else if (angulo1 && angulo2 && angulo3 !== angulosColocados){console.log(resultado = false)}
 else if (angulo1 || angulo2 || angulo3 < 0) {console.log(resultado = 'Valor invalido')};
+
